@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleWithSound", "ConsoleWithSound\ConsoleWithSound.vcxproj", "{0D0DBF99-4278-4785-978C-78D2E5176A50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210} = {F106090A-8E96-4F07-B9D2-8E063CB6F210}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluamodSource", "FluamodSource\FluamodSource.vcxproj", "{F106090A-8E96-4F07-B9D2-8E063CB6F210}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D0DBF99-4278-4785-978C-78D2E5176A50}.Debug|x64.ActiveCfg = Debug|x64
+		{0D0DBF99-4278-4785-978C-78D2E5176A50}.Debug|x64.Build.0 = Debug|x64
+		{0D0DBF99-4278-4785-978C-78D2E5176A50}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D0DBF99-4278-4785-978C-78D2E5176A50}.Debug|x86.Build.0 = Debug|Win32
+		{0D0DBF99-4278-4785-978C-78D2E5176A50}.Release|x64.ActiveCfg = Release|x64
+		{0D0DBF99-4278-4785-978C-78D2E5176A50}.Release|x64.Build.0 = Release|x64
+		{0D0DBF99-4278-4785-978C-78D2E5176A50}.Release|x86.ActiveCfg = Release|Win32
+		{0D0DBF99-4278-4785-978C-78D2E5176A50}.Release|x86.Build.0 = Release|Win32
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210}.Debug|x64.ActiveCfg = Debug|x64
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210}.Debug|x64.Build.0 = Debug|x64
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210}.Debug|x86.ActiveCfg = Debug|Win32
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210}.Debug|x86.Build.0 = Debug|Win32
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210}.Release|x64.ActiveCfg = Release|x64
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210}.Release|x64.Build.0 = Release|x64
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210}.Release|x86.ActiveCfg = Release|Win32
+		{F106090A-8E96-4F07-B9D2-8E063CB6F210}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {753973F6-CB1D-4144-91CB-F2E4B9E30371}
+	EndGlobalSection
+EndGlobal
